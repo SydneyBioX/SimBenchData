@@ -1,0 +1,17 @@
+Package: scSimBenchmarkData
+Title: A collection of 35 single cell datasets
+Version: 1.0.0
+Authors@R: 
+    person(given = "Yue",
+           family = "Cao",
+           email = "yue.cao@sydney.edu.au",
+           role=c("aut", "cre"))
+Description: A collection of 35 single cell datasets across a broad range of sequencing protocols, tissue types, and from both mouse and human. 
+Depends: ExperimentHub
+Imports: BiocGenerics, AnnotationHub, BiocFileCache
+biocViews: ExperimentHub, ExperimentData, SingleCellData, RNASeqData
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1

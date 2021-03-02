@@ -1,0 +1,2 @@
+"Title","Description","BiocVersion","Genome","SourceType","SourceUrl","SourceVersion","Species","TaxonomyId","Coordinate_1_based","DataProvider","Maintainer","RDataClass","DispatchClass","RDataPath"
+"293T cell line","293T cell line","3.11","hg19","tar.gz","https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.1.0/293t","293t_filtered_gene_bc_matrices.tar.gz","Homo sapiens",9606,"NA","10x genomics","Yue Cao <yue.cao@sydney.edu.au>","SeuratObject","Rds","scSimBenchmarkData/293t_cellline.rds"

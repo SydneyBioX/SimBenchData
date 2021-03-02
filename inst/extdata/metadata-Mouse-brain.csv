@@ -1,0 +1,2 @@
+"Title","Description","BiocVersion","Genome","SourceType","SourceUrl","SourceVersion","Species","TaxonomyId","Coordinate_1_based","DataProvider","Maintainer","RDataClass","DispatchClass","RDataPath"
+"Mouse brain","cortex of mice","3.11","NA","TXT","https://storage.googleapis.com/linnarsson-lab-www-blobs/blobs/cortex/expression_mRNA_17-Aug-2014.txt","expression_mRNA_17-Aug-2014.txt","Mus musculus","10090","NA","Karolinska Institutet, Medical Biochemistry and Biophysics","Yue Cao <yue.cao@sydney.edu.au>","SeuratObject","Rds","scSimBenchmarkData/Mouse_brain.rds"

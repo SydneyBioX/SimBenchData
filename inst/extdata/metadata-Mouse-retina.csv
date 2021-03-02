@@ -1,0 +1,2 @@
+"Title","Description","BiocVersion","Genome","SourceType","SourceUrl","SourceVersion","Species","TaxonomyId","Coordinate_1_based","DataProvider","Maintainer","RDataClass","DispatchClass","RDataPath"
+"retina","Mouse retina","3.11","mm10","Zip","https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1626793","GSM1626793_P14Retina_1.digital_expression.txt.gz","Mus musculus",10090,"NA","Harvard Medical School, Genetics","Yue Cao <yue.cao@sydney.edu.au>","SeuratObject","Rds","scSimBenchmarkData/Mouse_retina.rds"

@@ -1,0 +1,2 @@
+"Title","Description","BiocVersion","Genome","SourceType","SourceUrl","SourceVersion","Species","TaxonomyId","Coordinate_1_based","DataProvider","Maintainer","RDataClass","DispatchClass","RDataPath"
+"Yang liver","Liver cells of E10.5 to E17.5 mouse embryos","3.11","mm10","Zip","https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90047","GSE90047_Single-cell_RNA-seq_Read_Count.txt.gz","Mus musculus",10090,"NA","Peking University","Yue Cao <yue.cao@sydney.edu.au>","SeuratObject","Rds","scSimBenchmarkData/Yang_mouse_liver.rds"

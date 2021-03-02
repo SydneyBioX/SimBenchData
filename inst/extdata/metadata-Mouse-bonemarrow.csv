@@ -1,0 +1,2 @@
+"Title","Description","BiocVersion","Genome","SourceType","SourceUrl","SourceVersion","Species","TaxonomyId","Coordinate_1_based","DataProvider","Maintainer","RDataClass","DispatchClass","RDataPath"
+"Mouse bone marrow","Bone marrow myeloid progenitors","3.11","mm9","Zip","https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE72857","GSE72857_umitab.txt.gz","Mus musculus",10090,"NA","Weizmann Institute of Science, Immunology","Yue Cao <yue.cao@sydney.edu.au>","SeuratObject","Rds","scSimBenchmarkData/Mouse_bonemarrow.rds"

@@ -1,0 +1,2 @@
+"Title","Description","BiocVersion","Genome","SourceType","SourceUrl","SourceVersion","Species","TaxonomyId","Coordinate_1_based","DataProvider","Maintainer","RDataClass","DispatchClass","RDataPath"
+"Dong liver","liver cells of E9.5 to E11.5 mouse embryos","3.11","mm10","XLS/XLSX","https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87038","GSE87038_Mouse_Organogenesis_UMI_counts_matrix.xlsx","Mus musculus",10090,"NA","Peking University","Yue Cao <yue.cao@sydney.edu.au>","SeuratObject","Rds","scSimBenchmarkData/Dong_mouse_liver.rds"

@@ -1,0 +1,2 @@
+"Title","Description","BiocVersion","Genome","SourceType","SourceUrl","SourceVersion","Species","TaxonomyId","Coordinate_1_based","DataProvider","Maintainer","RDataClass","DispatchClass","RDataPath"
+"BC01 blood","PBMC of breast cancer patient ID BC01","3.11","hg19","Zip","https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114725","GSE114725_RAW.tar","Homo sapiens",9606,"NA","Memorial Sloan Kettering Cancer Center,	Computational and Systems Biology Program, SKI","Yue Cao <yue.cao@sydney.edu.au>","SeuratObject","Rds","scSimBenchmarkData/BC01_blood.rds"

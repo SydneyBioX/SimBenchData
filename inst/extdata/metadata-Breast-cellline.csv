@@ -1,0 +1,2 @@
+"Title","Description","BiocVersion","Genome","SourceType","SourceUrl","SourceVersion","Species","TaxonomyId","Coordinate_1_based","DataProvider","Maintainer","RDataClass","DispatchClass","RDataPath"
+"breast cell line","MDA-MB-231 cells cultured in glucose","3.11","hg19","Zip","https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE106202","GSE106202_FRUCTOSE_GLUCOSE_merge.DGE.txt.gz","Homo sapiens",9606,"NA","University of Southampton, Faculty of Medicine","Yue Cao <yue.cao@sydney.edu.au>","SeuratObject","Rds","scSimBenchmarkData/Breast-cellline.rds"

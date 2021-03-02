@@ -1,0 +1,2 @@
+"Title","Description","BiocVersion","Genome","SourceType","SourceUrl","SourceVersion","Species","TaxonomyId","Coordinate_1_based","DataProvider","Maintainer","RDataClass","DispatchClass","RDataPath"
+"stem cell","Human pluripotent stem cells (hPSCs)","3.11","hg19","Zip","https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE75748","GSE75748_sc_time_course_ec.csv.gz","Homo sapiens",9606,"NA","Morgridge Institute for Research","Yue Cao <yue.cao@sydney.edu.au>","SeuratObject","Rds","scSimBenchmarkData/Stemcell-timecourse.rds"
