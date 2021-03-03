@@ -8,10 +8,17 @@ Authors@R:
            role=c("aut", "cre"))
 Description: A collection of 35 single cell datasets across a broad range of sequencing protocols, tissue types, and from both mouse and human. 
 Depends: ExperimentHub
-Imports: BiocGenerics, AnnotationHub, BiocFileCache
+Imports: S4Vectors, utils, Seurat
 biocViews: ExperimentHub, ExperimentData, SingleCellData, RNASeqData
-License: CC0
+VignetteBuilder: knitr
+Suggests: BiocStyle, knitr, rmarkdown
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Date: 2021-03-02
+NeedsCompilation: no
+Author: Yue Cao [aut, cre]
+Maintainer: Yue Cao <yue.cao@sydney.edu.au>
+

@@ -2,7 +2,7 @@
 meta <- data.frame(
   Title =  "pbmc inDrops" ,
   Description = "inDrops subset of the set of six protocols sequenced on human PBMC" ,
-  BiocVersion="3.11",
+  BiocVersion="3.13",
   Genome="hg19",
   SourceType = "Zip",
   SourceUrl = "https://singlecell.broadinstitute.org/single_cell/study/SCP424/single-cell-comparison-pbmc-data#study-download",

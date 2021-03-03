@@ -2,7 +2,7 @@
 meta <- data.frame(
   Title =  "Tung ipsc" ,
   Description = "Three iPSC (Induced Pluripotent Stem Cells) lines" ,
-  BiocVersion="3.11",
+  BiocVersion="3.13",
   Genome="hg19",
   SourceType = "TXT",
   SourceUrl = "https://github.com/jdblischak/singleCellSeq",

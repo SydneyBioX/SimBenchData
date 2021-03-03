@@ -2,7 +2,7 @@
 meta <- data.frame(
   Title =  "Yang liver" ,
   Description = "Liver cells of E10.5 to E17.5 mouse embryos" ,
-  BiocVersion="3.11",
+  BiocVersion="3.13",
   Genome="mm10",
   SourceType = "Zip",
   SourceUrl = "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90047",

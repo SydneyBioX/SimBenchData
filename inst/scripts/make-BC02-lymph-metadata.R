@@ -2,7 +2,7 @@
 meta <- data.frame(
   Title =  "BC02 lymph" ,
   Description = "Lymph node of breast cancer patient ID BC02" ,
-  BiocVersion="3.11",
+  BiocVersion="3.13",
   Genome="hg19",
   SourceType = "Zip",
   SourceUrl = "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114725",

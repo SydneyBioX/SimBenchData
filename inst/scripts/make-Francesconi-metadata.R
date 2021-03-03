@@ -2,7 +2,7 @@
 meta <- data.frame(
   Title =  "Francesconi" ,
   Description = "B cell precursors from bone marrow, induced to either trans-differentiate to macrophages or to reprogram into iPSCs" ,
-  BiocVersion="3.11",
+  BiocVersion="3.13",
   Genome="mm10",
   SourceType = "Zip",
   SourceUrl = "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE112004",

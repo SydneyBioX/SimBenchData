@@ -2,7 +2,7 @@
 meta <- data.frame(
   Title =  "Soumillon" ,
   Description = "differentiating cells of human adipose-derived stem/stromal cells" ,
-  BiocVersion="3.11",
+  BiocVersion="3.13",
   Genome="hg19",
   SourceType = "Zip",
   SourceUrl = "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE53638",

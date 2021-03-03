@@ -2,7 +2,7 @@
 meta <- data.frame(
   Title =  "RH41 cellline" ,
   Description = "Rh41(human alveolar rhabdomyosarcoma) cell line" ,
-  BiocVersion="3.11",
+  BiocVersion="3.13",
   Genome="hg19",
   SourceType = "Zip",
   SourceUrl = "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE113660",

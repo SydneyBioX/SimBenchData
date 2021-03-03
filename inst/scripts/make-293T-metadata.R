@@ -2,7 +2,7 @@
 meta <- data.frame(
   Title =  "293T cell line" ,
   Description = "293T cell line" ,
-  BiocVersion="3.11",
+  BiocVersion="3.13",
   Genome="hg19",
   SourceType = "tar.gz",
   SourceUrl = "https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.1.0/293t",

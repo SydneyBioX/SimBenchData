@@ -2,7 +2,7 @@
 meta <- data.frame(
   Title =  "Tabula Muris" ,
   Description = "10x subset of Tabula Muris" ,
-  BiocVersion="3.11",
+  BiocVersion="3.13",
   Genome="mm10",
   SourceType = "Zip",
   SourceUrl = "https://figshare.com/projects/Tabula_Muris_Transcriptomic_characterization_of_20_organs_and_tissues_from_Mus_musculus_at_single_cell_resolution/27733",

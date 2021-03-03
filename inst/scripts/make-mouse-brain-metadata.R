@@ -2,7 +2,7 @@
 meta <- data.frame(
   Title =  "Mouse brain" ,
   Description = "cortex of mice" ,
-  BiocVersion="3.11",
+  BiocVersion="3.13",
   Genome="NA",
   SourceType = "TXT",
   SourceUrl = "https://storage.googleapis.com/linnarsson-lab-www-blobs/blobs/cortex/expression_mRNA_17-Aug-2014.txt",

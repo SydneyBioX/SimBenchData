@@ -2,7 +2,7 @@
 meta <- data.frame(
   Title =  "light exposure endothelial" ,
   Description = "Endothelial smooth muscle of primary visual cortex from mice, exposed to light for 0h, 1h and 4h" ,
-  BiocVersion="3.11",
+  BiocVersion="3.13",
   Genome="mm10",
   SourceType = "Zip",
   SourceUrl = "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102827",

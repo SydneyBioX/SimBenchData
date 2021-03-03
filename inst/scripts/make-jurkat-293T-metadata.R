@@ -2,7 +2,7 @@
 meta <- data.frame(
   Title =  "Jurkat and 293T" ,
   Description = "mixture of Jurkat (human T lymphocyte)  and 293T" ,
-  BiocVersion="3.11",
+  BiocVersion="3.13",
   Genome="hg19",
   SourceType = "tar.gz",
   SourceUrl = "https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.1.0/jurkat",

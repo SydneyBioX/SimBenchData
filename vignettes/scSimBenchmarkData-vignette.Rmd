@@ -1,0 +1,64 @@
+---
+title: "scSimBenchmarkData: a collection of single-cell RNA-seq data covering a wide range of data characteristics"
+author:
+- name: Yue Cao
+  affiliation: The University of Sydney
+  email: yue.cao@sydney.edu.au
+package: scSimBenchmarkData
+output:
+  BiocStyle::html_document
+vignette: |
+  %\VignetteIndexEntry{scSimBenchmarkData: a collection of single-cell RNA-seq data covering a wide range of data characteristics}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+ 
+# Introduction
+
+The scSimBenchmarkdata package contains a total of 35 single-cell RNA-seq data covering a wide range of data characteristics, including major sequencing protocols, multiple tissue types, and both human and mouse sources. This package was developed as part of an onging work on performance benchmark of single cell simulation methods. We curated a total of 36 datasets in order to comprehensively assess the performance of 12 single cell simulation methods in retaining key data properties of single cell sequencing data, including gene-wise and cell-wise properties, as well as differential expression signals. We subsequently decided to make all these datasets publicly available (one dataset is not shared due to restricted access) into a data package and share with the community.   
+
+
+
+# The scSimBenchmarkdata dataset 
+
+The data stored in this package can be retrieved using ExperimentHub.   
+
+```{r warning=FALSE, message=FALSE}
+library(ExperimentHub)
+eh <- ExperimentHub()
+alldata <- query(eh, "scSimBenchmarkData")
+alldata 
+```
+
+The data can be downloaded using its ID. 
+```{r eval=FALSE, include=TRUE}
+data_1 <- alldata[["EH5384"]]  
+```
+
+
+Additional details on each dataset can be explored using the following command and the exact processing step of each dataset can be found under the `inst/scripts` directory.    
+Here we show the first three datasets as an example.   
+
+```{r}
+library(scSimBenchmarkData)
+alldata_info <- showAllData()
+alldata_info[1:3, ]
+```
+
+
+
+# Citation
+
+If you found scSimBenchmarkData useful for your project, please cite:
+
+```{r}
+citation("scSimBenchmarkData")
+```
+
+
+
+# Session info {.unnumbered}
+
+```{r sessionInfo, echo=FALSE}
+sessionInfo()
+```

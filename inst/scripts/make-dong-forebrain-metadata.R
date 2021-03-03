@@ -2,7 +2,7 @@
 meta <- data.frame(
   Title =  "Dong forebrain" ,
   Description = "Forebrain cells of E9.5 to E11.5 mouse embryos" ,
-  BiocVersion="3.11",
+  BiocVersion="3.13",
   Genome="mm10",
   SourceType = "XLS/XLSX",
   SourceUrl = "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87038",

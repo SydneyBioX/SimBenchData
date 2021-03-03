@@ -1,0 +1,15 @@
+citHeader("To cite scSimBenchmarkData in publications use:")
+
+citEntry(entry = "manual",
+    title = "scSimBenchmarkData: a collection of single-cell RNA-seq data covering a wide range of data characteristics",
+    author = "Yue Cao",
+    organization = "University of Sydney",
+    address = "Sydney, Australia",
+    note = "version 1.0.0",
+    year = "2021",
+    url = "https://github.com/ycao6928/scSimBenchmarkData",
+    textVersion  = paste("Cao, Y. (2021).",
+        "scSimBenchmarkData: a collection of single-cell RNA-seq data covering a wide range of data characteristics.",
+        "version 1.0.0. University of Sydney. Sydney, Australia.",
+        "https://github.com/ycao6928/scSimBenchmarkData")
+)

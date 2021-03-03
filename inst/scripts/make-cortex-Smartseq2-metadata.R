@@ -2,7 +2,7 @@
 meta <- data.frame(
   Title =  "Neural Smart-seq2" ,
   Description = "Smart-seq2 subset of the set of four protocols sequenced on mouse cortex" ,
-  BiocVersion="3.11",
+  BiocVersion="3.13",
   Genome="mm10",
   SourceType = "Zip",
   SourceUrl = "https://singlecell.broadinstitute.org/single_cell/study/SCP425/single-cell-comparison-cortex-data#study-download",

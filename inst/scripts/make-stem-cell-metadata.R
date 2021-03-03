@@ -2,7 +2,7 @@
 meta <- data.frame(
   Title =  "stem cell" ,
   Description = "Human pluripotent stem cells (hPSCs)" ,
-  BiocVersion="3.11",
+  BiocVersion="3.13",
   Genome="hg19",
   SourceType = "Zip",
   SourceUrl = "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE75748",

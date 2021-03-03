@@ -2,7 +2,7 @@
 meta <- data.frame(
   Title =  "retina" ,
   Description = "Mouse retina" ,
-  BiocVersion="3.11",
+  BiocVersion="3.13",
   Genome="mm10",
   SourceType = "Zip",
   SourceUrl = "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1626793",
