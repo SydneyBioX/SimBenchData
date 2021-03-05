@@ -6,9 +6,9 @@ Authors@R: c(
     person(given = "Pengyi",family = "Yang", email = "pengyi.yang@sydney.edu.au",  role="aut" ),
     person(given = "Jean Yee Hwa",family = "Yang", email = "jean.yang@sydney.edu.au",  role="aut" ))
 Description: The SimBenchData package contains a total of 35 single-cell RNA-seq datasets covering a wide range of data characteristics, including major sequencing protocols, multiple tissue types, and both human and mouse sources.
-Depends: ExperimentHub
-Imports: S4Vectors, utils, Seurat
-biocViews: ExperimentHub, ExperimentData, SingleCellData, RNASeqData
+Depends: ExperimentHub, Seurat
+Imports: S4Vectors, utils
+biocViews: ExperimentHub, ExperimentData, SingleCellData, RNASeqData, Tissue, SequencingData
 VignetteBuilder: knitr
 Suggests: BiocStyle, knitr, rmarkdown
 License: GPL-3
@@ -18,8 +18,3 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Date: 2021-03-02
 NeedsCompilation: no
-Author: Yue Cao [aut, cre],
-        Pengyi Yang [aut],
-        Jean Yang [aut]
-Maintainer: Yue Cao <yue.cao@sydney.edu.au>
-
