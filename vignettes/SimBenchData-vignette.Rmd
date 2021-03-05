@@ -45,15 +45,22 @@ Each dataset can be downloaded using its ID.
 data_1 <- alldata[["EH5384"]]  
 ```
 
-Information about each dataset such as its description and source URL can be found in the metadata and the exact processing step can be found under the `inst/scripts` directory.     
+Information about each dataset such as its description and source URL can be found in the metadata files under the `inst/extdata` directory. It can also be explored using the function `showMetaData`. Additional details on each dataset can be explored using the function `showAdditionalDetail()`. The information on the first three datasets is shown as an example.   
 
-Additional details on each dataset can be explored using the command `showAllData()`. The information on the first three datasets is shown as an example.   
 
 ```{r}
 library(SimBenchData)
-alldata_info <- showAllData()
-alldata_info[1:3, ]
+
+metadata <- showMetaData()
+metadata[1:3, ]
+
+additionaldetail <- showAdditionalDetail()
+additionaldetail[1:3, ]
 ```
+
+
+The data processing script for each dataset can be found under the `inst/scripts` directory.     
+
 
 
 # Session info {.unnumbered}
