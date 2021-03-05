@@ -9,11 +9,12 @@
 #' @return
 #' A \linkS4class{DataFrame}, containing the following fields
 #' \itemize{
+#' \item \code{ExperimentHub ID}, accession ID.
 #' \item \code{Name}, short name of this data.
-#' \item \code{Description}, description of the data.
-#' \item \code{Species}, whether it is human or mouse.
-#' \item \code{SourceUrl}, where the data was originally obtained from.
-#' \item \code{RDataPath}, the corresponding rds file in this package.
+#' \item \code{Species}, whether human or mouse.
+#' \item \code{Protocol}, sequencing protocol.
+#' \item \code{Number of cells}, number of cells.
+#' \item \code{Mutiple cell types/conditions ?}, whether the dataset contains multiple cell types or conditions (eg, treated vs untreated).
 #' }
 #'
 #' @author Yue Cao
@@ -26,16 +27,10 @@
 #' @importFrom utils read.csv
 showAllData <- function() {
 
-  dataset_df <- NULL
-  allfiles <- system.file("extdata", package="scSimBenchmarkData")
-  allfiles <- list.files(allfiles)
-  for (thisfile in allfiles ) {
-    path <- system.file("extdata",thisfile, package="scSimBenchmarkData")
-    temp <- read.csv(path, stringsAsFactors=FALSE)
-    dataset_df <- rbind(dataset_df, temp)
-  }
-  dataset_df <-     dataset_df[, c("Title" ,  "Description" ,  "Species" , "SourceUrl",    "RDataPath"         ) ]
-  colnames( dataset_df)[1] <- "Name"
 
-  return (dataset_df)
+    path <- system.file("extdata", "additional_description.csv", package="SimBenchData")
+    description <- data.frame( read.csv(path, stringsAsFactors=FALSE) )
+
+
+  return (description)
 }

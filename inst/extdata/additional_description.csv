@@ -1,0 +1,36 @@
+ExperimentHub_ID,Name,Species,Protocol,Number_of_cells,Multiple_celltypes_or_conditions
+EH5384,293T cell line,Human,10x Genomics,2885,No
+EH5385,Jurkat and 293T,Human,10x Genomics,6143,Yes
+EH5386,BC01 blood,Human,inDrops,3034,No
+EH5387,BC01 normal,Human,inDrops,3607,No
+EH5388,BC02 lymph,Human,inDrops,6129,No
+EH5389,BC02 tumor,Human,inDrops,2437,No
+EH5390,BC09 tumor,Human,10x Genomics,7000,No
+EH5391,breast cell line,Human,Drop-seq,785,No
+EH5392,Dong forebrain,Mouse,Smart-seq2,196,Yes
+EH5393,Dong intest,Mouse,Smart-seq2,196,Yes
+EH5394,Dong liver,Mouse,Smart-seq2,196,Yes
+EH5395,Dong skin,Mouse,Smart-seq2,196,Yes
+EH5396,Francesconi,Mouse,MARS-Seq,3833,Yes
+EH5397,HEK cellline,Human,Seq-Well,1453,No
+EH5398,light exposure endothelial,Mouse,inDrops,4071,Yes
+EH5399,light exposure microglia,Mouse,inDrops,10158,Yes
+EH5400,Mouse bone marrow,Mouse,MARS-seq,6144,Yes
+EH5401,Mouse brain,Mouse,STRT-seq,3005,Yes
+EH5402,retina,Mouse,Drop-seq,6598,No
+EH5403,Neural 10x,Mouse,sci-RNA-seq,4912,Yes
+EH5404,Neural DroNc-seq,Mouse,10x Genomics,5367,Yes
+EH5405,Neural sci-RNA-seq,Mouse,DroNc-seq,2345,Yes
+EH5406,Neural Smart-seq2,Mouse,Smart-seq2,644,Yes
+EH5407,pbmc 10x,Human,10x Genomics,3312,Yes
+EH5408,pbmc CEL-Seq2,Human,CEL-seq2,526,Yes
+EH5409,pbmc Drop-seq,Human,Drop-seq,6357,Yes
+EH5410,pbmc inDrops,Human,inDrops,4184,Yes
+EH5411,pbmc Seq-Well,Human,Seq-Well,2908,Yes
+EH5412,pbmc Smart-seq2,Human,Smart-seq2,522,Yes
+EH5413,RH41 cellline,Human,10x Genomics,6875,Yes
+EH5414,Soumillon,Human,SCRB-Seq,2968,Yes
+EH5415,stem cell,Human,SMARTer,758,Yes
+EH5416,Tabula Muris,Mouse,10x Genomics,55656,Yes
+EH5417,Tung ipsc,Human,SMARTer,564,Yes
+EH5418,Yang liver,Mouse,Smart-seq2,447,Yes

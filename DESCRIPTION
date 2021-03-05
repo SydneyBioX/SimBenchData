@@ -1,4 +1,4 @@
-Package: scSimBenchmarkData
+Package: SimBenchData
 Title: A collection of 35 single cell datasets
 Version: 1.0.0
 Authors@R: 

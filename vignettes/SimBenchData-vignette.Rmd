@@ -1,0 +1,63 @@
+---
+title: "SimBenchData: a collection of 35 single-cell RNA-seq data covering a wide range of data characteristics"
+author:
+- name: Yue Cao
+  affiliation: School of Mathematics and Statistics, University of Sydney; Charles Perkins Centre, University of Sydney, Sydney, NSW, Australia
+  email: yue.cao@sydney.edu.au
+- name: Pengyi Yang
+  affiliation: School of Mathematics and Statistics, University of Sydney, Sydney, NSW, Australia;   Charles Perkins Centre, University of Sydney, Sydney, NSW, Australia;   Computational Systems Biology Group, Children's Medical Research Institute, University of Sydney, Westmead, NSW, Australia
+  email: pengyi.yang@sydney.edu.au
+- name: Jean Yee Hwa Yang
+  affiliation: School of Mathematics and Statistics, University of Sydney; Charles Perkins Centre, University of Sydney, Sydney, NSW, Australia
+  email: jean.yang@sydney.edu.au
+package: SimBenchData
+output:
+  BiocStyle::html_document
+vignette: |
+  %\VignetteIndexEntry{SimBenchData: a collection of single-cell RNA-seq data covering a wide range of data characteristics}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+ 
+# Introduction
+
+The SimBenchData package contains a total of 35 single-cell RNA-seq datasets covering a wide range of data characteristics, including major sequencing protocols, multiple tissue types, and both human and mouse sources. This package serves as a key resource for performance benchmark of single-cell simulation methods, and was used to comprehensively assess the performance of 12 single-cell simulation methods in retaining key data properties of single-cell sequencing data, including gene-wise and cell-wise properties, as well as biological signals such as differential expression and differential proportion of genes. This data package is a valuable resource for the single-cell community for future development and benchmarking of new single-cell simulation methods and other applications. 
+
+
+# The SimBenchData dataset 
+
+The data stored in this package can be retrieved using ExperimentHub.   
+
+```{r warning=FALSE, message=FALSE}
+# if (!requireNamespace("BiocManager", quietly = TRUE))
+#     install.packages("BiocManager")
+# 
+# BiocManager::install("ExperimentHub")
+
+library(ExperimentHub)
+eh <- ExperimentHub()
+alldata <- query(eh, "SimBenchData")
+alldata 
+```
+
+Each dataset can be downloaded using its ID. 
+```{r eval=FALSE, include=TRUE}
+data_1 <- alldata[["EH5384"]]  
+```
+
+Information about each dataset such as its description and source URL can be found in the metadata and the exact processing step can be found under the `inst/scripts` directory.     
+
+Additional details on each dataset can be explored using the command `showAllData()`. The information on the first three datasets is shown as an example.   
+
+```{r}
+library(SimBenchData)
+alldata_info <- showAllData()
+alldata_info[1:3, ]
+```
+
+
+# Session info {.unnumbered}
+
+```{r sessionInfo, echo=FALSE}
+sessionInfo()
+```
