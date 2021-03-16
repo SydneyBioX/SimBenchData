@@ -1,6 +1,6 @@
 Package: SimBenchData
 Title: SimBenchData: a collection of 35 single-cell RNA-seq data covering a wide range of data characteristics
-Version: 0.99.1
+Version: 0.99.2
 Authors@R: c(
     person(given = "Yue",family = "Cao", email = "yue.cao@sydney.edu.au",  role=c("aut", "cre")),
     person(given = "Pengyi",family = "Yang", email = "pengyi.yang@sydney.edu.au",  role="aut" ),
