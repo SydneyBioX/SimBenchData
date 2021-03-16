@@ -9,7 +9,7 @@ library(Seurat)
 
 # download files
 download.file("https://cf.10xgenomics.com/samples/cell-exp/1.1.0/293t/293t_filtered_gene_bc_matrices.tar.gz" , "293t_filtered_gene_bc_matrices.tar.gz")
-system("tar -xvzf 293t_filtered_gene_bc_matrices.tar.gz")
+system2("tar -xvzf 293t_filtered_gene_bc_matrices.tar.gz")
 Rootdir <- getwd()
 
 # read in files

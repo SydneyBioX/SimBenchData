@@ -14,14 +14,18 @@ A \linkS4class{DataFrame}, containing the following fields
 \item \code{Species}, whether human or mouse.
 \item \code{Protocol}, sequencing protocol.
 \item \code{Number of cells}, number of cells.
-\item \code{Mutiple cell types/conditions ?}, whether the dataset contains multiple cell types or conditions (eg, treated vs untreated).
+\item \code{Mutiple cell types/conditions ?}, whether the dataset contains
+multiple cell types or conditions (eg, treated vs untreated).
 }
 }
 \description{
-This shows the additional details for the 35 datasets in the \pkg{SimBenchData} package.
+This shows the additional details for the 35 datasets in the
+\pkg{SimBenchData} package.
 }
 \details{
-This package contains a total of 35 curated datasets, covering a range of sequencing protocols, tissues types (including different cell lines) and from both mouse and human.
+This package contains a total of 35 curated datasets, covering a range of
+sequencing protocols, tissues types (including different cell lines) and
+from both mouse and human.
 }
 \examples{
 showAdditionalDetail

@@ -7,7 +7,8 @@ library(data.table)
 library(Seurat)
 
 # download the cell type information and count matrix
-download.file("https://ftp.ncbi.nlm.nih.gov/geo/series/GSE102nnn/GSE102827/suppl/GSE102827_cell_type_assignments.csv.gz",  "GSE102827_cell_type_assignments.csv.gz"  )
+download.file("https://ftp.ncbi.nlm.nih.gov/geo/series/GSE102nnn/GSE102827/suppl/GSE102827_cell_type_assignments.csv.gz",
+              "GSE102827_cell_type_assignments.csv.gz"  )
 
 download.file("https://ftp.ncbi.nlm.nih.gov/geo/series/GSE102nnn/GSE102827/suppl/GSE102827_merged_all_raw.csv.gz",
               "GSE102827_merged_all_raw.csv.gz"  )
@@ -19,7 +20,7 @@ merged <- as.data.frame(merged )
 rownames(merged)  <- merged$V1
 merged <- merged[ , -1]
 
-label <- fread( paste0(Rootdir ,  "/GSE102827_cell_type_assignments.csv.gz"), header = T    )
+label <- fread( paste0(Rootdir ,  "/GSE102827_cell_type_assignments.csv.gz"), header = TRUE    )
 tissue  <- label$maintype
 timepoint <- label$stim
 

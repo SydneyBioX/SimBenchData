@@ -4,11 +4,12 @@
 
 library(Seurat)
 
-download.file("https://storage.googleapis.com/linnarsson-lab-www-blobs/blobs/cortex/expression_mRNA_17-Aug-2014.txt", "Zeisel.txt")
+download.file("https://storage.googleapis.com/linnarsson-lab-www-blobs/blobs/cortex/expression_mRNA_17-Aug-2014.txt",
+              "Zeisel.txt")
 
 Rootdir <- getwd()
 zeisel <- read.delim(paste0(Rootdir , "/Zeisel.txt"))
-rownames (zeisel) <-  make.names( zeisel[ , 1], unique=T)
+rownames (zeisel) <-  make.names( zeisel[ , 1], unique=TRUE)
 zeisel <- zeisel[ , -c(1,2) ]
 region <- colnames(zeisel)
 region <- unlist( lapply (strsplit( region , "\\."),  `[`, 1) )

@@ -9,7 +9,7 @@ library(Seurat)
 
 # download data
 download.file("https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE114725&format=file", "temp.tar")
-system("tar -xvf temp.tar")
+system2("tar -xvf temp.tar")
 Rootdir = getwd()
 
 

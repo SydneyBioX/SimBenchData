@@ -19,8 +19,8 @@ library(Seurat)
 # parse
 rootDir <- getwd()
 count   <-  readMM(paste0(rootDir , "/counts.read.txt.gz"))
-cell_name <- fread(paste0(rootDir , "/cells.read.new.txt"), header = F)
-gene_name <- fread(paste0(rootDir , "/genes.read.txt"), header = F)
+cell_name <- fread(paste0(rootDir , "/cells.read.new.txt"), header = FALSE)
+gene_name <- fread(paste0(rootDir , "/genes.read.txt"), header = FALSE)
 colnames(count  )  <-  cell_name$V1
 rownames(count ) <- gene_name$V1
 

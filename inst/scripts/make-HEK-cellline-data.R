@@ -8,7 +8,7 @@ library(Seurat)
 
 
 download.file("https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE92495&format=file" , "temp.tar")
-system("tar -xvf temp.tar")
+system2("tar -xvf temp.tar")
 Rootdir = getwd()
 
 HEK  <-  fread(paste0(Rootdir, "/GSM2486331_HEK_SingleCells.txt"))

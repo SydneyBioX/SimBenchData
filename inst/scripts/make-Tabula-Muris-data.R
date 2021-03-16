@@ -9,9 +9,10 @@ library(Matrix)
 library(Seurat)
 
 # download and unzip the file
-download.file("https://ndownloader.figshare.com/articles/5968960/versions/1", "01_droplet_raw_data.zip" )
-system("unzip 01_droplet_raw_data.zip")
-system("unzip droplet.zip")
+download.file("https://ndownloader.figshare.com/articles/5968960/versions/1",
+              "01_droplet_raw_data.zip" )
+system2("unzip 01_droplet_raw_data.zip")
+system2("unzip droplet.zip")
 
 rootDir <- getwd()
 dir <- paste0(rootDir, "/droplet/")
@@ -24,10 +25,10 @@ for(i in 1:length(fileNames)){
   print(fileNames[i])
   name <- unlist( lapply( strsplit(fileNames[i] , "-") , `[`, 2))
   data_byOrgan[[i]] <- readMM(paste0(dir, fileNames[i] , "/matrix.mtx") )
-  columns <- read.csv(paste0(dir, fileNames[i] , "/barcodes.tsv") , header = F )
+  columns <- read.csv(paste0(dir, fileNames[i] , "/barcodes.tsv") , header = FALSE )
   columns <-  unlist( lapply( strsplit( columns$V1 , "-") , `[`, 1))
   columns <- paste0(  name ,  "_" ,  columns )
-  rows <-  read.csv(paste0(dir, fileNames[i] , "/genes.tsv" ), sep = "\t", header = F)
+  rows <-  read.csv(paste0(dir, fileNames[i] , "/genes.tsv" ), sep = "\t", header = FALSE)
   dimnames( data_byOrgan[[i]]) = list(rows$V1, columns)
 
 }
