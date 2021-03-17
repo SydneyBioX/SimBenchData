@@ -1,12 +1,12 @@
 Package: SimBenchData
 Title: SimBenchData: a collection of 35 single-cell RNA-seq data covering a wide range of data characteristics
-Version: 0.99.2
+Version: 0.99.4
 Authors@R: c(
     person(given = "Yue",family = "Cao", email = "ycao6928@uni.sydney.edu.au",  role=c("aut", "cre")),
     person(given = "Pengyi",family = "Yang", email = "pengyi.yang@sydney.edu.au",  role="aut" ),
     person(given = "Jean Yee Hwa",family = "Yang", email = "jean.yang@sydney.edu.au",  role="aut" ))
 Description: The SimBenchData package contains a total of 35 single-cell RNA-seq datasets covering a wide range of data characteristics, including major sequencing protocols, multiple tissue types, and both human and mouse sources.
-Depends: ExperimentHub, Seurat
+Depends: ExperimentHub, spatstat (<= 1.64-1), Seurat
 Imports: S4Vectors, utils
 biocViews: ExperimentHub, ExperimentData, SingleCellData, RNASeqData, Tissue, SequencingData
 VignetteBuilder: knitr
